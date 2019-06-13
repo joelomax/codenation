@@ -69,17 +69,11 @@ Math.random
 
 //challenge 1
 
-let space1 = 'o'
-let space2 = 'x'
-let space3 = 'o'
-let space4 = 'x'
-let space5 = 'o'
-let space6 = 'x'
-let space7 = 'o'
-let space8 = 'x'
-let space9 = 'o'
+
 
 const fillBoard = (space1,space2,space3,space4,space5,space6,space7,space8,space9) => {
+
+
 
     console.log(`   |    |    `)
     console.log(`  ${space1}|  ${space2} |  ${space3} `)
@@ -95,7 +89,7 @@ const fillBoard = (space1,space2,space3,space4,space5,space6,space7,space8,space
 
 }
 
-fillBoard();
+fillBoard("x","o","x","o","x","o","x","o","x");
 
 
 
