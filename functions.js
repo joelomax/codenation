@@ -67,8 +67,22 @@ const canWithdraw = (pinenter, request) => {
 Math.random
 */
 
-//challenge 1
+/*
+var money = 23
+var hunger = 29
 
+if (hunger > 50){
+    console.log("I am hungry")
+}
+else if (hunger > 30 && hunger < 50 ){
+    console.log("I\'m a bit hungry")
+}
+else {
+    console.log("I\'m not hungry!")
+}
+*/
+
+//challenge 1
 
 
 const fillBoard = (space1,space2,space3,space4,space5,space6,space7,space8,space9) => {
@@ -91,20 +105,10 @@ const fillBoard = (space1,space2,space3,space4,space5,space6,space7,space8,space
 
 fillBoard("x","o","x","o","x","o","x","o","x");
 
+//challenge 2
 
-
-
-/*
-var money = 23
-var hunger = 29
-
-if (hunger > 50){
-    console.log("I am hungry")
+const numToString = (num) => {
+    num = 
 }
-else if (hunger > 30 && hunger < 50 ){
-    console.log("I\'m a bit hungry")
-}
-else {
-    console.log("I\'m not hungry!")
-}
-*/
+
+
