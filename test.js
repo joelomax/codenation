@@ -1,3 +1,3 @@
-var i = [0,1,2,3,4,5,6,7,8]
-console.log(i[0],i.length - 1)
-
+let i = "7"
+let j = "7"
+console.log(i / j)
