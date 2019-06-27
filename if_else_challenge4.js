@@ -1,14 +1,8 @@
-var num = [6,5,1,2,0,2,1,5,6];
+var num = [6,5,2,2,0,2,1,5,6];
 //console.log(num.length)
-const loopNumber = (listOfNumbers) => {
-    Math.floor(num.length/2);
-    return
-    }
+    var j = Math.floor(num.length/2);
 
-const checkIfEqual = (,) => {
-    if (num[0] == [num.length-1])
-}
-for (i=0; i<loopNumber(array); i++ ){
+for (i=0; i<j; i++ ){
     console.log(num[0], num[num.length-1]);
     if (num[0] == num[num.length-1]){
         num.pop();
